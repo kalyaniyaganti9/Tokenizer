@@ -1,0 +1,93 @@
+Reading input file : inputfile.txt
+List of Tokens appeared in the input file with the count of tokens
+------------------------------------------------------------------
+TOKEN      | TOKEN COUNT
+package    |          1
+;          |         14
+import     |          2
+*          |          3
+@          |          2
+~          |          2
+`          |          4
+2          |          1
+0          |          3
+1          |          1
+9          |          2
+-          |          3
+5          |          2
+public     |          3
+class      |          2
+{          |          4
+static     |          2
+void       |          1
+main       |          2
+(          |         12
+[          |          2
+]          |          2
+)          |         12
+<          |          1
+>          |          1
+=          |          1
+,          |         27
+for        |          1
+}          |          4
+/          |          3
++          |         11
+finally    |          1
+catch      |          1
+%          |          1
+>>         |          1
+4          |          1
+!          |          1
+#          |          1
+$          |          1
+List of Tokens appeared in the input file along with the Token Category
+------------------------------------------------------------------------
+TOKEN      | TOKEN CATEGORY
+package    |    Keyword
+;          |  Seperator
+import     |    Keyword
+*          |   Operator
+@          | SpecialCharacter
+~          | SpecialCharacter
+`          | SpecialCharacter
+2          |    Numeric
+0          |    Numeric
+1          |    Numeric
+9          |    Numeric
+-          |   Operator
+5          |    Numeric
+public     |    Keyword
+class      |    Keyword
+{          |  Seperator
+static     |    Keyword
+void       |    Keyword
+main       |    Keyword
+(          |  Seperator
+[          |  Seperator
+]          |  Seperator
+)          |  Seperator
+<          |   Operator
+>          |   Operator
+=          |   Operator
+,          |  Seperator
+for        |    Keyword
+}          |  Seperator
+/          |   Operator
++          |   Operator
+finally    |    Keyword
+catch      |    Keyword
+%          |   Operator
+>>         |   Operator
+4          |    Numeric
+!          |   Operator
+#          | SpecialCharacter
+$          | SpecialCharacter
+List of Token Categories appeared in the input file with the count of tokens categories
+---------------------------------------------------------------------------------------
+TOKEN CATEGORY     | TOKEN CATEGORY COUNT
+Keyword            |         16
+Seperator          |         77
+Operator           |         26
+SpecialCharacter   |         10
+Numeric            |         10

@@ -1,0 +1,35 @@
+package com.sample.test ;
+
+import java.util.Arrays ;
+import java.util.List ;
+
+/**
+ * @ author ~ ` ` kalyani created on 2 0 1 9 - 0 9 - 0 5
+ */
+public class InputFile {
+
+    public static void main ( String [ ] args ) {
+
+        System.out.println ( " This is a sample input file class  " ) ;
+
+        System.out.println ( " The Java Programming language has 5 types of Tokens  " ) ;
+
+        List < String > javaTokenTypes = Arrays.asList ( " identifier " , " keyword " , " seperator " , " operator " , " literal " ) ;
+
+        System.out.println ( " Printing all the Java Token Types " ) ;
+
+        for ( String token : javaTokenTypes ) {
+            System.out.println ( token ) ;
+        }
+
+        /* / * Printing the tokens * / */
+        System.out.println ( " Examples of " + " identifiers " + " include : ab , 123bh , 89aBHUIO "  ) ;
+        System.out.println ( " Examples of " + " keywords " + " include : public , static , main , finally , catch "  ) ;
+        System.out.println ( " Examples of " + " seperators " + " include : [ , ] , { , } , ; "  ) ;
+        System.out.println ( " Examples of " + " operators " + " include : + , - , / , % , >> "  ) ;
+        System.out.println ( " Examples of " + " literals " + " include : 4 , 2.25 , 4.0 , 3.1415927F , 19E-95 "  ) ;
+
+        // Special Character include ` ` , ~ , ! , @ , # , $
+
+    }
+}
